@@ -1,0 +1,165 @@
+body {
+    background-color: #FFA500;
+    color: #8B0000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #8B0000;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.border {
+    border:
+    3px
+    solid
+    #8B0000;
+    font-size: 42px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.block {
+    margin: 5px;
+    padding: 10px;
+    border-top: 
+    3px
+    solid
+    #8B0000;
+}
+
+.first-block {
+    margin: 2px;
+    padding: 10px;
+}
+
+.button {
+    background-color: #8B0000;
+    border: none;
+    color: #F0E68C;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #F0E68C;
+    color: #8B0000;
+    animation-name: button-hover;
+    animation-duration: 0.5s;
+}
+
+@keyframes button-hover {
+    from {
+        background-color: #8B0000;
+        color: #F0E68C;
+    }
+    to {
+        background-color: #F0E68C;
+        color: #8B0000;
+    }
+}
+
+.button:not(:hover) {
+    background-color: #8B0000;
+    color: #F0E68C;
+    animation-name: not-hover;
+    animation-duration: 0.5s;
+}
+
+@keyframes not-hover {
+    from {
+        background-color: #F0E68C;
+        color: #8B0000;
+    }
+    to {
+        background-color: #8B0000;
+        color: #F0E68C;
+    }
+}
+
+.input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 
+    2px
+    solid
+    #8B0000;
+    border-radius: 8px;
+    background-color: #F0E68C;
+    color: #8B0000;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input-num {
+    width: 29%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 
+    2px
+    solid
+    #8B0000;
+    border-radius: 8px;
+    background-color: #F0E68C;
+    color: #8B0000;
+    font-size: 24px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.response {
+    font-size: 24px;
+    color: #8B0000;
+    margin: 10px;
+}

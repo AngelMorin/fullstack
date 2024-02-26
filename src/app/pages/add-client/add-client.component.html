@@ -1,0 +1,24 @@
+<body>
+  <div class="flex-center position-ref full-height">
+    <div class="content">
+      <div class="title m-b-md">
+        Add Client
+      </div>
+
+      <div class="border">
+        Name<br>
+        <input [(ngModel)]="clientName" class="input" type="text"><br>
+        Surname<br>
+        <input [(ngModel)]="clientSurname" class="input" type="text"><br>
+        Age<br>
+        <input [(ngModel)]="clientAge" class="input-num" type="number"><br>
+        Gender<br>
+        <input [(ngModel)]="clientGender" class="input" type="text"><br>
+      </div>
+      <button class="button" (click)="addNewClient()">Add</button>
+      <div class="response">
+        <p>{{responseRes}}</p>
+      </div>
+    </div>
+  </div>
+</body>
